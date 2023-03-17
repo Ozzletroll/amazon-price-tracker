@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 TARGET_URL = "https://www.amazon.co.uk/Automate-Boring-Stuff-Python-2nd/dp/1593279922/ref=sr_1_9?crid=G12YA8H6XOZ3" \
              "&keywords=python&qid=1679060293&sprefix=python%2Caps%2C67&sr=8-9"
-PRICE_THRESHOLD = 45.00
+PRICE_THRESHOLD = 25.00
 
 email_1 = os.environ["FROM_EMAIL"]
 app_password = os.environ["APP_PASSWORD"]
